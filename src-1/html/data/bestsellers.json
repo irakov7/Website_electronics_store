@@ -1,0 +1,58 @@
+[
+	{
+		"img": "01",
+		"title": "Skullcandy - Crusher anc 2 wireless headphones",
+		"price": "$299.99",
+		"status": "new",
+		"rating": 5
+	},
+	{
+		"img": "02",
+		"title": "Beats Studio Pro",
+		"price": "$349.99",
+		"status": "new",
+		"rating": 4
+	},
+	{
+		"img": "03",
+		"title": "Sony - WH-CH720N Wireless Noise Canceling",
+		"price": "$149.99",
+		"status": "new",
+		"rating": 3
+	},
+	{
+		"img": "04",
+		"title": "Skullcandy - Rail True Wireless Earbuds",
+		"price": "$79.99",
+		"status": "new",
+		"rating": 5
+	},
+	{
+		"img": "05",
+		"title": "Beats Studio Pro",
+		"price": "$224.99",
+		"status": "new",
+		"rating": 4
+	},
+	{
+		"img": "06",
+		"title": "JBL Reflect Flow Pro+ Bluetooth Truly Wireless Sports",
+		"price": "$179.95",
+		"status": "new",
+		"rating": 5
+	},
+	{
+		"img": "07",
+		"title": "Bose QuietComfort Headphones",
+		"price": "$349.00",
+		"status": "new",
+		"rating": 4
+	},
+	{
+		"img": "08",
+		"title": "AKG Y600NC Wireless",
+		"price": "$349.99",
+		"status": "new",
+		"rating": 3
+	}
+]
