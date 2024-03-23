@@ -1,0 +1,21 @@
+.logo,
+a.logo {
+	font-size: 24px;
+	line-height: 1;
+	font-weight: 500;
+	font-family: var(--font-accent);
+
+	color: #000;
+
+	span {
+		color: #6c7275;
+	}
+
+	@include mobile {
+		font-size: 16px;
+	}
+
+	&--small {
+		font-size: 16px;
+	}
+}

@@ -1,0 +1,31 @@
+.value {
+	padding: 48px 32px;
+	background-color: #f3f5f7;
+
+	@include mobile {
+		padding: 32px 16px;
+		padding-right: 8px;
+	}
+}
+
+.value__img {
+	margin-bottom: 16px;
+}
+
+.value__title {
+	margin-bottom: 8px;
+	font-size: 20px;
+	line-height: 1.4;
+	font-weight: 500;
+	font-family: var(--font-accent);
+
+	@include mobile {
+		margin-bottom: 4px;
+		font-size: 14px;
+	}
+}
+.value__desc {
+	color: #6c7275;
+	font-size: 14px;
+	line-height: 1.714285714285714;
+}

@@ -1,0 +1,30 @@
+.arrivals {
+	padding: 48px 0;
+
+	@include mobile {
+		padding: 32px 0 0;
+	}
+}
+
+.arrivals__row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	margin-bottom: 48px;
+
+	@include mobile {
+		margin-bottom: 40px;
+	}
+}
+
+.arrivals__dots {
+	@include mobile {
+		display: none;
+	}
+}
+
+.arrivals__slider {
+	display: flex;
+	gap: 24px;
+}

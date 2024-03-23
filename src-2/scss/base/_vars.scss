@@ -1,0 +1,24 @@
+:root {
+	--container-width: 1184px;
+	--container-padding: 32px;
+
+	--font-main: 'Inter', sans-serif;
+	--font-accent: 'Poppins', sans-serif;
+	--font-nav: 'Space Grotesk', sans-serif;
+
+	--page-bg: #fff;
+	--text-color: #000;
+	--accent: #ac182c;
+
+    --laptop-size: 1199px;
+	--tablet-size: 959px;
+	--mobile-size: 599px;
+
+	--yellow: #FFAB00;
+	--tagline-link: #FFAB00;
+}
+
+.dark {
+    --page-bg: #252526;
+    --text-color: #fff;
+}

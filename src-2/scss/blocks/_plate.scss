@@ -1,0 +1,81 @@
+.plate {
+	padding-bottom: 50%;
+
+	position: relative;
+	background-color: #f3f5f7;
+
+	background-position: center center; /* x y */
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	&--01 {
+		background-image: url('./../img/collections/01.jpg');
+		@include mediaBg() {
+			background-image: url('./../img/collections/01@2x.jpg');
+		}
+	}
+	&--02 {
+		background-image: url('./../img/collections/02.jpg');
+		@include mediaBg() {
+			background-image: url('./../img/collections/02@2x.jpg');
+		}
+	}
+	&--03 {
+		background-image: url('./../img/collections/03.jpg');
+		@include mediaBg() {
+			background-image: url('./../img/collections/03@2x.jpg');
+		}
+	}
+}
+
+.plate__content {
+	position: absolute;
+	left: 32px;
+	right: 32px;
+	bottom: 40px;
+
+	@include tablet {
+		left: 20px;
+		right: 20px;
+		bottom: 20px;
+	}
+}
+
+.plate--tall {
+	grid-row: 1 / 3;
+}
+
+.plate__content {
+}
+
+.plate__title {
+	margin-bottom: 12px;
+	font-size: 34px;
+	line-height: 1.117647058823529;
+	font-weight: 500;
+	color: #121212;
+	letter-spacing: -0.6px;
+
+	@include tablet {
+		margin-bottom: 8px;
+		font-size: 28px;
+	}
+}
+
+.plate__link {
+	display: inline-flex;
+	gap: 4px;
+	align-items: center;
+
+	color: #121212;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.75;
+	letter-spacing: -0.4px;
+
+	border-bottom: 1px solid #121212;
+
+	@include tablet {
+		font-size: 14px;
+	}
+}

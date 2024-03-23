@@ -1,0 +1,26 @@
+.collection {
+	@include mobile {
+		padding-bottom: 40px;
+	}
+}
+
+.collection__title {
+	padding: 48px 0;
+
+	@include mobile {
+		text-align: center;
+		padding: 40px 0 16px;
+	}
+}
+
+.collection__grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 24px;
+
+	@include mobile {
+		grid-template-columns: 1fr;
+		grid-auto-rows: 180px;
+		gap: 16px;
+	}
+}
